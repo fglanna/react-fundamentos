@@ -1,22 +1,17 @@
-import Cabecalho from "@/components/Cabecalho";
 import "../app/globals.css";
-import Conteudo from "@/components/Conteudo";
-import Rodape from "@/components/Rodape";
+import Pagina from "@/components/Pagina";
 
-export default function Pagina() {
+export default function TestePagina() {
+
+  function executar() {
+    console.log('O botão foi clicado!')
+  }
+
   return (
-    <div
-      className={`
-        flex flex-col h-screen p-5 gap-5
-        bg-black text-white
-        `}
-    >
-      <Cabecalho
-             titulo="Minha Página" 
-             subtitulo="Estou na pasta pages"
-        />
-        <Conteudo />
-        <Rodape />
-    </div>
+    <Pagina titulo="Minha Página" subtitulo="Estou na pasta pages">
+      <button onClick={executar} className="bg-blue-500 p-2 rounded-md hover:bg-blue-400 cursor-pointer">
+        Teste
+      </button>
+    </Pagina>
   );
 }

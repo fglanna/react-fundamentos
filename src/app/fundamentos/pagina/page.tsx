@@ -1,21 +1,14 @@
-import Cabecalho from "@/components/Cabecalho";
-import Conteudo from "@/components/Conteudo";
-import Rodape from "@/components/Rodape";
+import Pagina from "@/components/Pagina";
 
 export default function Page() {
   return (
-    <div
-      className={`
-        flex flex-col
-        gap-4
-        p-4 h-screen
-    `}
-    >
-      <Cabecalho 
-            titulo="Minha Aplicação" 
-            subtitulo="Melhor app da Web!" />
-      <Conteudo />
-      <Rodape />
-    </div>
+    <Pagina titulo="Minha Aplicação" subtitulo="Melhor app da Web!">
+      <ul className="list-disc pl-8">
+        <li>Ana</li>
+        <li>Gustavo</li>
+        <li>Maria</li>
+        <li>João</li>
+      </ul>
+    </Pagina>
   );
 }
