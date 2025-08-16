@@ -1,4 +1,4 @@
-import { IconBraces, IconBrandJavascript, IconCode, IconFileCheck, IconFunction, IconH1, IconSitemap } from "@tabler/icons-react";
+import { IconBraces, IconBrandJavascript, IconCode, IconFileCheck, IconFunction, IconH1, IconNumber123, IconPlusMinus, IconRosette, IconRosetteFilled, IconSitemap } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
@@ -11,7 +11,10 @@ export default function Menu() {
         `}        >
             
             <span className="text-sm text-zinc-400 pl-3 pt-4">Fundamentos</span>
-                <MenuItem icone={<IconCode />} texto="Componete sem Estado" url="/" />
+                <MenuItem icone={<IconRosette />} texto="Componente sem Estado" url="/estado/sem" />
+                <MenuItem icone={<IconRosetteFilled />} texto="Componente Com Estado" url="/estado/com" />
+                <MenuItem icone={<IconPlusMinus />} texto="Desafio: Incrementar/Decrementar" url="/estado/desafio" />
+                <MenuItem icone={<IconNumber123 />} texto="Contador" url="/estado/contador" />                
 
 
             <span className="text-sm text-zinc-400 pl-3 pt-4">Fundamentos</span>
