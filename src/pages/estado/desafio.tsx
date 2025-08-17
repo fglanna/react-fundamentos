@@ -1,7 +1,5 @@
 import Pagina from "@/components/Pagina";
 import { useState } from "react";
-import "../../app/globals.css";
-
 
 export default function DesafioIncreDecremento() {
   const [numero, setNumero] = useState(0);

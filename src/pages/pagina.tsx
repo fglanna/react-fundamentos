@@ -9,7 +9,7 @@ export default function TestePagina() {
 
   return (
     <Pagina titulo="Minha Página" subtitulo="Estou na pasta pages">
-      <button onClick={executar} className="bg-blue-500 p-2 rounded-md hover:bg-blue-400 cursor-pointer">
+      <button onClick={executar} className='botao'>
         Teste
       </button>
     </Pagina>

@@ -1,6 +1,4 @@
-import "../../app/globals.css";
 import Pagina from "@/components/Pagina";
-
 
 export default function PaginaComEstado() {
   let numero = 0;

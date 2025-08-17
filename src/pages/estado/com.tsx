@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../../app/globals.css";
 import Pagina from "@/components/Pagina";
 
 
@@ -17,7 +16,7 @@ export default function PaginaComEstado() {
                 <span>Valor : </span>
                 <span>{numero}</span>
             </div>
-            <button onClick={incrementar} className="bg-blue-500 p-1.5 rounded-md hover:bg-blue-600 cursor-pointer">Incrementar</button>
+            <button onClick={incrementar} className="bg-emerald-500 p-1.5 rounded-md hover:bg-emerald-700 cursor-pointer">Incrementar</button>
         </div>
       </Pagina>
   );
