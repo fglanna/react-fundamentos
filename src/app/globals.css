@@ -1,3 +1,5 @@
+@import url(components.css);
+
 @import "tailwindcss";
 
 :root {
@@ -34,3 +36,10 @@ body {
 .botao:hover {
   opacity: 1.5;
 }
+
+.campo {
+  @apply bg-black px-4 py-2;
+  @apply text-white rounded-md;
+}
+
+

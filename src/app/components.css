@@ -1,0 +1,14 @@
+.botao {
+  @apply bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded;
+  @apply text-white rounded-md font-bold py-2 px-2 text-lg;
+  
+}
+
+.botao:hover {
+  opacity: 1.5;
+}
+
+.campo {
+  @apply bg-black px-4 py-2;
+  @apply text-white rounded-md;
+}
