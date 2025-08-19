@@ -12,6 +12,8 @@ import {
   IconSitemap,
   IconForms,
   IconCalculator,
+  IconArrowDownSquare,
+  IconArrowUpSquare,
 } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
@@ -25,6 +27,18 @@ export default function Menu() {
         
         `}
     >
+      <span className="text-sm text-zinc-400 pl-3 pt-4">Comunicação</span>
+        <MenuItem
+        icone={<IconArrowDownSquare />}
+        texto="Comunicação Direta"
+        url="/comunicacao/direta"
+      />
+        <MenuItem
+        icone={<IconArrowUpSquare/>}
+        texto="Comunicação Indireta"
+        url="/comunicacao/indireta"
+      />
+      
       <span className="text-sm text-zinc-400 pl-3 pt-4">Estado</span>
       <MenuItem
         icone={<IconRosette />}

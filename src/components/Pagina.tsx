@@ -15,8 +15,7 @@ export default function Pagina(props: PaginaProps) {
         <div className={`flex h-screen`}>
             <AreaLateral />
             <div className="flex flex-col flex-1">
-                <Cabecalho
-                
+                <Cabecalho                
                     titulo={props.titulo}
                     subtitulo={props.subtitulo}
                     className="h-16 bg-zinc-800"

@@ -10,7 +10,7 @@ export default function Home() {
             justify-center items-center
             h-full w-full text-zinc-500 
         `}>
-            <IconBrandReact size={200} stroke={1} />
+            <IconBrandReact size={210} stroke={1.2} color="cyan" />
             <span className="font-black ">Curso Fundamentos do React</span>
             <span className="text-sm ">Aqui você vai aprender os fundamentos sólidos da biblioteca React</span>
 
